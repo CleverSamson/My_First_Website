@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.NAVBAR{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background: cyan;
+    padding: 20px 40px;
+}
+.NAVBAR h1{
+    font-size: 30px;
+}
+.nav-items{
+display: flex;
+}
+.nav-items h3{
+    margin: 0 30px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.HEADER{
+    margin: 80px auto 0;
+    margin-top: 80px;
+    width: 80%;
+    text-align: center;
+}
+
+.HEADER p{
+font-size: 20px;
+}
+.STORE{
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: column;
+    display: flex;
+    background: #ececec;
+    padding: 40px 20px;
+}
+.store-images{
+    justify-content: center;
+    display: flex;
+}
+.store-images img{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 30%;
+}
+.CONTACT{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    padding: 50px 0;
+    background: darkgrey;
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.contact-form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+width: 90%;
+margin: 0 auto;
+}
+.contact-form form input{
+    padding: 20px;
+    border: 1px solid;
+    margin: 10px 0;
+}
+.contact-form form textarea{
+    padding: 50px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+.contact-form form button{
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin: 10px auto;
+    font-size: 17px;
+}
+.contact-ceo{
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+}
+.ceo-content{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.ceo-content img{
+    width: 100%;
+    height: 70%;
+    max-width: 50%;
+    border-radius: 50%;
+}
+.ceo-content p{
+    font-size: 20px;
+    text-align: left;
+    width: 45%;
+    margin: 0 auto;
+}
